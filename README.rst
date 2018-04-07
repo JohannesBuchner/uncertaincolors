@@ -64,8 +64,16 @@ Here is the same image, grayscaled:
 
 	.. image:: https://raw.githubusercontent.com/JohannesBuchner/uncertaincolors/master/demo_colorspace_gray.png
 
+Code
+==========
 
-The first approach is to go to a colorspace such as JCh or HSV that have color (Hue H) and lightness or saturation as independent axes (V,J). This gives images like this one:
+Code can be found in https://github.com/JohannesBuchner/uncertaincolors/blob/master/uncertaincolors.py
+
+
+Why not just map with HSV?
+-----------------------------
+
+Initially I thought to just go to a colorspace such as JCh or HSV that have color (Hue H) and lightness or saturation as independent axes (V,J). This gives images like this one:
 
 .. image:: https://raw.githubusercontent.com/JohannesBuchner/uncertaincolors/master/cam-JCh.png
 	:alt: JCh
@@ -77,7 +85,6 @@ The arcs make the image useless. Colors here are not desaturized homogeneously.
 
 Instead, the approach I chose is to select a colormap and get the initial values (at uncertainty 0) and find their saturation. I normalise the colormaps to the same saturation. The second axis then desaturates until no color is left.
 
-Code can be found in https://github.com/JohannesBuchner/uncertaincolors/blob/master/uncertaincolors.py
 
 
 
