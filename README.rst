@@ -5,7 +5,9 @@ This is an attempt at implementing uncertainty Visualisation with matplotlib.
 I want to show measured value and uncertainty in the same image,
 like here:
 
-.. image:: http://spatial-analyst.net/wiki/index.php/File:Fig_comparison_visualisation.jpg
+.. image:: http://spatial-analyst.net/wiki/images/thumb/3/32/Fig_comparison_visualisation.jpg/450px-Fig_comparison_visualisation.jpg
+
+(their website is informative: http://spatial-analyst.net/wiki/index.php?title=Uncertainty_visualization )
 
 Examples
 =========
